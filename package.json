@@ -4,13 +4,13 @@
     "version": "1.1.0",
     "author": "Saqib Islam <saaqi.grw@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/yourusername/SaaqiPlugins",
+    "homepage": "https://github.com/saaqi/SaaqiPlugins",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/SaaqiPlugins.git"
+        "url": "https://github.com/saaqi/SaaqiPlugins.git"
     },
     "dependencies": {
-        "dependency-name": "^1.2.3"
+        "dependency-name": "node.js, terser, clean-css-cli, browser-sync"
     },
     "engines": {
         "sublime_text": ">=3.0.0"

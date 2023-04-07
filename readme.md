@@ -17,11 +17,11 @@ A Sublime Text plugin that combines multiple useful features for web developers.
 
 **Install Node.js on your system if it is not installed already. Then install.**
 
-1. `npm install clean-css-cli -g`
+1. <pre><code>`npm install clean-css-cli -g`</code></pre>
 
-2. `npm install terser -g`
+2. <pre><code>`npm install terser -g`</code></pre>
 
-3. `npm install browser-sync -g`
+3. <pre><code>`npm install browser-sync -g`</code></pre>
 
 
 ## Installation
