@@ -50,9 +50,9 @@ If you do not want the plugin th create a minified version every time your save 
 
 1. Open the settings file by clicking on Preferences > Package Settings > Saaqi Plugins > Settings - User.
 2. In the settings file, set "auto_build_one_save": false. like this.
-	{
+	<pre><code>{
 		"auto_build_one_save": false,
-	}
+	}</code></pre>
 3. Save the settings file.
 4. Now everytime you need to minify yor css or JavaScript file go to Tools > Build.
 5. It will automatically create a new file with .min file extension. For example style.css will have a new file called syle.min.css
