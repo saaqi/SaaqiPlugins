@@ -13,15 +13,13 @@ A Sublime Text plugin that combines multiple useful features for web developers.
 ## Requirements
 
 * Node.js ( for [Clean CSS](https://www.npmjs.com/package/clean-css-cli), [Terser](https://www.npmjs.com/package/tersers) & [Browser-Sync](https://www.npmjs.com/package/browser-sync)
-* Terser, Clean-CSS-CLI & Browser-Sync (installed globally)
+* Terser, Clean-CSS-CLI & Browser-Sync **installed globally**
 
 **Install Node.js on your system if it is not installed already. Then install.**
 
-1. `npm install clean-css-cli -g`
-
-2. `npm install terser -g`
-
-3. `npm install browser-sync -g`
+<pre><code>npm install clean-css-cli -g</code></pre>
+<pre><code>npm install terser -g</code></pre>
+<pre><code>npm install browser-sync -g</code></pre>
 
 
 ## Installation
