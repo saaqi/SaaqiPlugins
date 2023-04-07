@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/* ## Make adustments with jQuery
+--------------------------------------------- */
+jQuery(document).ready(function(\$) {
+	\$('${1:.selector}').${2:addClass}('${3:jselector}');
+});
+]]></content>
+	<description>jQuery Function</description>
+	<scope>source.js</scope>
+	<tabTrigger>jqf</tabTrigger>
+</snippet>

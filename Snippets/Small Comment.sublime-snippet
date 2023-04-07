@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+/* ### ${1:Comment} */
+
+]]></content>
+	<description>Small Comment</description>
+	<!-- <scope>source.js,source.css,source.php,source.html</scope> -->
+	<tabTrigger>sco</tabTrigger>
+</snippet>

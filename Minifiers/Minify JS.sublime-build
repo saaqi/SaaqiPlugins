@@ -1,0 +1,17 @@
+{
+	"cmd": [
+		"terser",
+			"$file", "--compress", "--mangle", 
+			"-o", "${file_base_name}.min.${file_extension}"
+	],
+
+	"windows": {
+		"cmd": [
+			"terser.cmd",
+			"$file", "--compress", "--mangle", 
+			"-o", "${file_base_name}.min.${file_extension}"
+		]
+	},
+
+	"selector": "source.js"
+}

@@ -1,0 +1,9 @@
+[
+    { "caption": "Start Browser-Sync Here…", "command": "subprocess_in_cwd", "args": {
+        "cmd": ["powershell.exe", "browser-sync.cmd start --server --no-ui --no-notify --files ."]
+    } },
+    
+    { "caption": "Open PowerShell Here…", "command": "subprocess_in_cwd", "args": {
+        "cmd": ["powershell.exe"]
+    } }
+]

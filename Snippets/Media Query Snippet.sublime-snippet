@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+/* Small Devices */
+@media (min-width: 576px) {
+	${1:.container-sm, .container {
+		max-width: 540px;
+	\}}
+}
+
+/* Medium Devices */
+@media (min-width: 768px) {
+	${2:.container-md, .container-sm, .container {
+		max-width: 720px;
+	\}}
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+	${3:.container-lg, .container-md, .container-sm, .container {
+		max-width: 960px;
+	\} }
+}
+
+/* X Large Devices */
+@media (min-width: 1200px) {
+	${4:.container-xl, .container-lg, .container-md, .container-sm, .container {
+		max-width: 1140px;
+	\} }
+}
+
+/* XX Large Devices */
+@media (min-width: 1400px) {
+	${5:.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+		max-width: 1320px;
+	\}}
+}
+]]></content>
+	<description>Media Query</description>
+	<scope>source.css,source.html,source.php</scope>
+	<tabTrigger>mq</tabTrigger>
+</snippet>

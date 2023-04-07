@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Saaqi: Start Browser-Sync Here",
+        "command": "subprocess_in_cwd", "args": {
+            "cmd": ["powershell.exe", "browser-sync.cmd start --server --no-ui --no-notify --files ."]
+        }
+    },
+    {
+        "caption": "Saaqi: Open PowerShell Here",
+        "command": "subprocess_in_cwd", "args": {
+            "cmd": ["powershell.exe"]
+        }
+    }
+]

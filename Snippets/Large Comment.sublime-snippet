@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/* ## ${1:Comment}
+--------------------------------------------- */
+
+]]></content>
+	<description>Large Comment</description>
+	<!-- <scope>source.js,source.css,source.php,source.html</scope> -->
+	<tabTrigger>lco</tabTrigger>
+</snippet>

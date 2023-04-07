@@ -1,0 +1,6 @@
+[
+	{"keys": ["shift+ctrl+c"], "command": "subprocess_in_cwd", "args": {
+		// untested.  Patches welcome :)
+		"cmd": ["gnome-terminal",  "--tab"]
+	} }
+]

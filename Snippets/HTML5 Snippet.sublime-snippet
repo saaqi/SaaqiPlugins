@@ -1,0 +1,118 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Head Section for Sytles and Scripts -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>${1:Your Website Tile}</title>
+
+	<!-- StyleSheets -->
+	<link rel='stylesheet' href='/css/bootstrap.min.css' type='text/css' media='all'>
+	<link rel='stylesheet' href='${2:/css/style.min.css}' type='text/css' media='all'>
+		
+</head>
+
+
+<!-- Start The Main body and Content -->
+<body class="homepage home" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container">
+
+
+		<!-- Website Header for Title and Description of the Website -->
+		<header class="site-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="wrap">
+
+				<div class="title-area">
+					<h1 class="site-title" itemprop="headline"><a href="${5:http://testing.me/}" title="${6:Mobile Phone Repairing Picture Help}">${7:Mobile Phone Repairing Picture Help}</a></h1>
+					<h2 class="site-description" itemprop="description">${8:A testing server for Saaqi!}</h2>
+				</div>
+
+			</div>
+		</header>
+
+		<!-- Primary Navigation for the Website -->
+		<nav class="nav-primary" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+			<div class="wrap">
+
+				<ul id="main-menu" class="menu menu-primary">
+					<li id="menu-item-1" class="menu-item"><a href="${9:http://testing.me}">${10:Home}</a></li>
+					<li id="menu-item-2" class="menu-iteme menu-item-has-children"><a href="${11:http://testing.me/about-us/}">${12:About Us}</a>
+						<ul class="sub-menu">
+							<li id="sub-menu-item" class="menu-item sub-menu-item"><a href="${13:http://testing.me/contact-us/}">${14:Contact Us}</a></li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+
+
+		<!-- Main Area for Content and Sidebar of the Website -->
+		<div class="site-inner">
+			<div class="wrap">
+				<div class="content-sidebar-wrap">
+
+					<!-- Area for the Content -->
+					<main class="content" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+						<article class="entry post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+							<header class="entry-header">
+								<h2 class="entry-title">${15:Testing post for Mobile Repairing}</h2>
+							</header>
+							<div class="entry-content" itemprop="text">
+								<p>${16:A quick brown fox jumps over the lazy dog.}</p>
+							</div>
+						</article>
+					</main>
+
+					<!-- Area for the Sidebar -->
+					<aside class="sidebar sidebar-primary widget-area" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+						<section id="sidebar-widget" class="widget">
+							<div class="widget-wrap">
+								<h4 class="widget-title widgettitle">${17:Saaqi Rajput}</h4>
+								<p>${18:I am a mobile technician and I develop website and small software as a hobby.}</p>
+							</div>
+						</section>
+					</aside>
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer Section of the Website -->
+		<footer class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="wrap">
+				<p></p>
+
+				<div class="go-top">
+					<a class="top" href="#">BACK TO TOP</a>
+				</div>
+				<div class="creds">
+					<span class="copyright">Copyright ©&nbsp;2014 - ${19:Mobile Phone Repairing Picture Help} </span><span class="powered">Developer <a href="${20:http://www.saaqi.com/}" title="${21:Saaqi Rajput}" target="_blank">${22:Saaqi}</a></span>
+				</div>
+
+				<p></p>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Javascripts -->
+	<script src='/js/jquery.min.js'></script>
+	<script src='/js/bootstrap.min.js'></script>
+	<script src='/js/script.min.js'></script>
+</body>
+
+</html>
+]]></content>
+	<description>HTML5 Snippet</description>
+	<!-- <scope>source.js,source.css,source.php,source.html</scope> -->
+	<tabTrigger>html5</tabTrigger>
+</snippet>

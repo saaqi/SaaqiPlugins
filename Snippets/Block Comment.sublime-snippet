@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:@param} 	${2:Comment}
+*/
+
+]]></content>
+	<description>Block Comment</description>
+	<!-- <scope>source.js,source.css,source.php,source.html</scope> -->
+	<tabTrigger>bc</tabTrigger>
+</snippet>

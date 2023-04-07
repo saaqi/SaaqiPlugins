@@ -1,0 +1,10 @@
+[
+
+	{"keys": ["ctrl+shift+c"], "command": "subprocess_in_cwd", "args": {
+		"cmd": ["powershell.exe"]
+	} },
+
+	{"keys": ["ctrl+shift+b"], "command": "subprocess_in_cwd", "args": {
+		"cmd": ["powershell.exe", "browser-sync.cmd start --server --no-ui --no-notify --files ."]
+	} }
+]

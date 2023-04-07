@@ -1,0 +1,15 @@
+{	
+	"cmd": [
+		"cleancss",
+		"$file", ">", "${file_base_name}.min.${file_extension}"
+	],
+
+	"windows": {
+		"cmd": [
+			"cleancss.cmd",
+			"-o", "${file_base_name}.min.${file_extension}" , "$file"
+		]
+	},
+
+	"selector": "source.css"
+}

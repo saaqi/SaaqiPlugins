@@ -1,0 +1,13 @@
+{
+	// Override these in your own
+	// `Packages/User/SaaqiPlugins.sublime-settings` file.
+
+	// If set to true, prefer using the directory of active file over using a folder open in the current project
+	"prefer_active_view_dir": true,
+
+	// Choose file names to automatically build on save
+    "choose_filenames": "\\.(css|js)$",
+
+    // Change the value to false if you do not want to automatically build files on save
+    "auto_build_one_save": true,
+}
