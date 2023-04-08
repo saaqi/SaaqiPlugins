@@ -1,7 +1,7 @@
 {
     "name": "Saaqi Plugins",
     "description": "A Sublime Text plugin that combines multiple useful features for web developers.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "Saqib Islam <saaqi.grw@gmail.com>",
     "license": "MIT",
     "homepage": "https://github.com/saaqi/SaaqiPlugins",
