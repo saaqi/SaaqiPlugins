@@ -88,7 +88,7 @@ Saaqi Plugins provides many useful HTML, CSS, JavaScript, and jQuery snippets. T
 To check all the available snippets for your current file.
 
 1. Open the Command Palette by pressing CTRL+SHIFT+P.
-2. Type in "Snipppet: " and you will see a list fo all the available snippets. 
+2. Type in "Snippet: " and you will see a list fo all the available snippets. 
 
 ### License
 Saaqi Plugins is released under the MIT License.

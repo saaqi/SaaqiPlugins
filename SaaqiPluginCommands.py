@@ -1,5 +1,10 @@
-import os.path, pipes, re, subprocess, tempfile
-import sublime, sublime_plugin
+import os.path 
+import pipes
+import re
+import subprocess
+import tempfile
+import sublime
+import sublime_plugin
 from functools import partial
 
 
@@ -85,3 +90,32 @@ class SubprocessInCwdCommand(sublime_plugin.WindowCommand):
     def run(self, cmd=None, wait=False):
         cwd = cwd_for_window(self.window)
         run_cmd(cwd, cmd, wait)
+
+
+
+
+
+
+
+
+
+# Build on Save
+class AutoBuildOnSave(sublime_plugin.EventListener):
+    def on_post_save(self, view):
+        global_settings = sublime.load_settings('SaaqiPlugins.sublime-settings')
+
+        # See if we should build. A project level auto_build_one_save setting
+        # takes precedence. To be backward compatible, we assume the global
+        # auto_build_one_save to be true if not defined.
+        should_build = view.settings().get('auto_build_one_save', global_settings.get('auto_build_one_save', True))
+
+        # Load filename filter. Again, a project level setting takes precedence.
+        choose_filenames = view.settings().get('choose_filenames', global_settings.get('choose_filenames', '.*'))
+
+        if not should_build:
+            return
+
+        if not re.search(choose_filenames, view.file_name()):
+            return
+
+        view.window().run_command('build')
