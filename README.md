@@ -24,16 +24,8 @@ A Sublime Text plugin that combines multiple useful features for web developers.
 
 ## Installation
 
-### Saaqi Plugins is available on Package Control. To install, follow these steps:
-1. Open Sublime Text
-2. Open the Command Palette by pressing CTRL+SHIFT+P
-3. Type in "Package Control: Install Package"
-4. Search for "Saaqi Plugins"
-5. Press Enter to install
+### Saaqi Plugins is not available on Package Control. To install, follow these steps:
 
-**Waiting for the Package Manager Approval**
-
-### Manual Installation
 1. To install Saaqi Plugins manually, follow these steps:
 2. Download the latest release from the GitHub repository.
 2. Unzip the downloaded file and rename the folder to "SaaqiPlugins".
