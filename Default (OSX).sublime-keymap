@@ -12,5 +12,19 @@
 		// the user doesn't have their "Access for assistive devices" setting
 		// enabled.
 		"wait": true
-	} }
+	} },
+    {
+        "caption": "Saaqi: Start Browser-Sync Here",
+        "command": "subprocess_in_cwd", "args": {
+            "cmd": ["browser-sync start --server --no-ui --no-notify --files ."]
+        }
+    },
+    { 
+        "caption": "Saaqi: AutoPrefix CSS",
+        "command": "menu_exec", 
+            "args": {
+                "cmd": "autoprefixer-cli -b \"last 20 versions\" \"$file\""
+            },
+        "selector": "source.css",
+    },
 ]

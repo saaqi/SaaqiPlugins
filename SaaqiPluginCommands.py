@@ -6,6 +6,7 @@ import tempfile
 import sublime
 import sublime_plugin
 from functools import partial
+from Default.exec import ExecCommand
 
 
 def cwd_for_window(window):
@@ -119,3 +120,18 @@ class AutoBuildOnSave(sublime_plugin.EventListener):
             return
 
         view.window().run_command('build')
+
+
+
+
+
+# Custom Commands
+class MenuExecCommand(ExecCommand):
+    def run(self, **kwargs):
+        variables = self.window.extract_variables()
+
+        for key in ("cmd", "shell_cmd", "working_dir"):
+            if key in kwargs:
+                kwargs[key] =  sublime.expand_variables(kwargs[key], variables)
+
+        super().run(**kwargs)

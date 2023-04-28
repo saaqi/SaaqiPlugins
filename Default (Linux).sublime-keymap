@@ -2,5 +2,19 @@
 	{"keys": ["shift+ctrl+c"], "command": "subprocess_in_cwd", "args": {
 		// untested.  Patches welcome :)
 		"cmd": ["gnome-terminal",  "--tab"]
-	} }
+	} },
+    {
+        "caption": "Saaqi: Start Browser-Sync Here",
+        "command": "subprocess_in_cwd", "args": {
+            "cmd": ["browser-sync start --server --no-ui --no-notify --files ."]
+        }
+    },
+    { 
+        "caption": "Saaqi: AutoPrefix CSS",
+        "command": "menu_exec", 
+            "args": {
+                "cmd": "autoprefixer-cli -b \"last 20 versions\" \"$file\""
+            },
+        "selector": "source.css",
+    },
 ]

@@ -7,19 +7,21 @@ A Sublime Text plugin that combines multiple useful features for web developers.
 * Minify CSS and JavaScript files automatically on save. You can disable the autosave feature on save.
 * Open terminal from Sublime Text by pressing CTRL+SHIFT+C. You can choose to open the terminal from the current subfolders or always from the parent or the project.
 * Launch Browser-Sync from your current project folder. You can also launch multiple instances of Browser-Sync if you are working on multiple * projects simultaneously.
+* AutoPrefix your CSS file.
 * Provides many small and useful HTML, CSS, JavaScript, and jQuery snippets.
 
 
 ## Requirements
 
-* Node.js ( for [Clean CSS](https://www.npmjs.com/package/clean-css-cli), [Terser](https://www.npmjs.com/package/tersers) & [Browser-Sync](https://www.npmjs.com/package/browser-sync)
-* Terser, Clean-CSS-CLI & Browser-Sync **installed globally**
+* Node.js ( for [Clean CSS](https://www.npmjs.com/package/clean-css-cli), [Terser](https://www.npmjs.com/package/tersers), [Browser-Sync](https://www.npmjs.com/package/browser-sync) & [AutoPrefixer-Cli](https://github.com/ai/autoprefixer-cli)
+* Terser, Clean-CSS-CLI, AutoPrefixer-Cli & Browser-Sync **installed globally**
 
 **Install Node.js on your system if it is not installed already. Then install.**
 
 <pre><code>npm install clean-css-cli -g</code></pre>
 <pre><code>npm install terser -g</code></pre>
 <pre><code>npm install browser-sync -g</code></pre>
+<pre><code>npm install autoprefixer-cli -g</code></pre>
 
 
 ## Installation
@@ -72,6 +74,15 @@ To launch Browser-Sync from your current project folder, follow these steps:
 **Please make sure that you start browser sync from root of your projects folders.**
 
 If you are working on multiple prjects you can launch multiple instances of Browser-Sync, repeat the above steps for each project you want to launch.
+
+### Auto Prefixing your CSS files
+
+To AutoPrefix your CSS file, follow these steps:
+
+1. Open the Command Palette by pressing CTRL+SHIFT+P.
+2. Type in "Saaqi: AutoPrefix CSS" and press Enter.
+
+**It will overwrite your currently opened CSS file.**
 
 ### Snippets
 
