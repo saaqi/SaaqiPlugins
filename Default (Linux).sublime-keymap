@@ -13,7 +13,7 @@
         "caption": "Saaqi: AutoPrefix CSS",
         "command": "menu_exec", 
             "args": {
-                "cmd": "autoprefixer-cli -b \"last 20 versions\" \"$file\""
+                "cmd": "autoprefixer-cli.cmd --browsers 'last 10 versions' $file"
             },
         "selector": "source.css",
     },

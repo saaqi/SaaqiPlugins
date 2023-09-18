@@ -8,9 +8,54 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon">
+	<meta name="author" content="Saqib Islam">
+	<meta name="description" content="Website created by Saqib Islam.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<meta property="og:title" content="The Official Home of YIFY Movies Torrent Download - YTS" />
+	<meta property="og:image" content="./image.webp" />
+	<meta property="og:description" content="Website created by Saqib Islam." />
+	<meta property="og:url" content="https://saqibtech.com/" />
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="./media/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./media/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./media/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./media/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./media/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./media/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./media/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./media/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./media/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="./media/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="./media/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="./media/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="./media/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#00a300">
+	<meta name="msapplication-TileImage" content="./media/mstile-144x144.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "AggregateRating",
+    "url": "https://saqibtech.com/",
+    "itemReviewed": {
+      "@type": "store",
+      "priceRange": "$50",
+      "image": "./image.webp",
+      "name": "Saqib Islam UX Designer Portfolio",
+      "telephone": "+92-300-6412193",
+      "address" : {
+        "@type": "PostalAddress",
+        "streetAddress": "Office No, 67,  Near Water Tank, Azizia Town",
+        "addressLocality": "Gujranwala",
+        "addressRegion": "Punjab",
+        "postalCode": "52250",
+        "addressCountry": "PK"
+      }
+    },
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "ratingCount": "185"
+  }
+  </script>
 	<title>${1:Your Website Tile}</title>
 
 	<!-- StyleSheets -->

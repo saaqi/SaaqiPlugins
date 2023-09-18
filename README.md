@@ -75,14 +75,6 @@ To launch Browser-Sync from your current project folder, follow these steps:
 
 If you are working on multiple prjects you can launch multiple instances of Browser-Sync, repeat the above steps for each project you want to launch.
 
-### Auto Prefixing your CSS files
-
-To AutoPrefix your CSS file, follow these steps:
-
-1. Open the Command Palette by pressing CTRL+SHIFT+P.
-2. Type in "Saaqi: AutoPrefix CSS" and press Enter.
-
-**It will overwrite your currently opened CSS file.**
 
 ### Snippets
 

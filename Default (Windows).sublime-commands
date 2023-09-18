@@ -11,12 +11,20 @@
             "cmd": ["powershell.exe"]
         }
     },
+    // { 
+    //     "caption": "Saaqi: AutoPrefix CSS",
+    //     "command": "menu_exec", 
+    //         "args": {
+    //             "cmd": "autoprefixer-cli.cmd -b \"last 20 versions\" \"$file\""
+    //         },
+    //     "selector": "source.css",
+    // },
     { 
-        "caption": "Saaqi: AutoPrefix CSS",
+        "caption": "Saaqi: Build HTML",
         "command": "menu_exec", 
             "args": {
-                "cmd": "autoprefixer-cli.cmd -b \"last 20 versions\" \"$file\""
+                "cmd": ".\\build.bat"
             },
-        "selector": "source.css",
+        "selector": "source.html",
     },
 ]
