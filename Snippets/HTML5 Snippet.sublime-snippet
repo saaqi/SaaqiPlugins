@@ -11,10 +11,13 @@
 	<meta name="author" content="Saqib Islam">
 	<meta name="description" content="Website created by Saqib Islam.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="The Official Home of YIFY Movies Torrent Download - YTS" />
+	<meta property="og:title" content="Portfolio website by Saqib Islam" />
+	<meta property="og:type" content="website" />
 	<meta property="og:image" content="./image.webp" />
-	<meta property="og:description" content="Website created by Saqib Islam." />
 	<meta property="og:url" content="https://saqibtech.com/" />
+	<meta property="og:description" content="Website created by Saqib Islam." />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:site_name" content="Saqib Islam, UX/UI Designer, Frontend Developer" />
 	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" sizes="57x57" href="./media/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="./media/apple-touch-icon-114x114.png">
@@ -112,8 +115,89 @@
 							</header>
 							<div class="entry-content" itemprop="text">
 								<p>${16:A quick brown fox jumps over the lazy dog.}</p>
+
+								<video width='320' height='240' controls muted>
+									<source src='./video.mp4' type='video/mp4'>
+								</video>
+
+								<audio controls looop>
+									<source src='./audio.mp3' type='audio/mpeg'>
+								</audio>
+
+								<iframe src="www.example.com" width="320" height="240" allow="camera 'none'; mircrophone 'none';" sandbox="">
+									<div></div>
+								</iframe>
+
 							</div>
 						</article>
+
+						<section class="contact-form">
+							<form action="./example.php" method="POST">
+								<label for="email">Enter Your Email</label>
+								<input type="email" name="email" id="email">
+
+								<label for="tel">Enter Your Contact Number</label>
+								<input type="tel" name="phone" id="phone" pattern="[+]{92}[300-399]{11,14}">
+
+								<label for="messaage">Enter Your Message</label>
+								<input type="text" name="message" id="message" required minlength="10" maxlength="300">
+
+								<label for="url">Enter Your URL</label>
+								<input type="url" name="url" id="url">
+
+								<label for="date">Enter Your Date</label>
+								<input type="date" name="date" id="date">
+
+								<label for="bdaymonth">Birthday (month and year):</label>
+								<input type="month" name="bdaymonth" id="bdaymonth" min="1950-01" value="2000-01">
+
+								<label for="birthdaytime">Birthday (date and time):</label>
+								<input type="datetime-local" name="birthdaytime" id="birthdaytime">
+
+								<label for="time">Enter Your Time</label>
+								<input type="time" name="time" id="time">
+
+								<label for="number">Enter A Digit</label>
+								<input type="number" name="number" name="number" min="1" max="5">
+
+								<label for="range">Enter A Range</label>
+								<input type="range" name="range" id="range" min="0" max="10" oninput='this.nextElementSibling.value = this.value'>
+								<output>4</output>
+
+								<label for="color">Enter a Color</label>
+								<input type="color" name="color" id="color">
+
+								<label for="pwd">Password:</label> 
+								<input type="password" name="pwd" id="pwd">
+
+								<label for="options">Choose one or more options</label>
+								<fieldset id="options">
+									<input type="checkbox" name="options" id="option1" value="OP 01">
+									<input type="checkbox" name="options" id="option2" value="OP 02">
+								</fieldset>
+
+								<label for="theme">Choose An Option</label>
+								<fieldset id="theme">
+									<input type="radio" name="dark" id="dark" value="Dark">
+									<input type="radio" name="ligth" id="light" value="Light">
+								</fieldset>
+
+								<label for="multiple_options">Choose From Multiple Options</label>
+								<input id="multiple_options" name='multiple_options' list='multi_options'>
+								<datalist id='multi_options'>
+									<option value="Option 01"></option>
+									<option value="Option 02"></option>
+									<option value="Option 03"></option>
+								</datalist>
+
+								<label for="myfile">Select a file:</label>
+								<input type="file" name="myfile" id="myfile">
+
+								<input type="hidden" id="custId" name="custId" value="mail-page-cf">
+
+								<button type="button" value='Submit'>Submit</button>
+							</form>
+						</section>
 					</main>
 
 					<!-- Area for the Sidebar -->
