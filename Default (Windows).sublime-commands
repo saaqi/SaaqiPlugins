@@ -19,12 +19,12 @@
     //         },
     //     "selector": "source.css",
     // },
-    { 
-        "caption": "Saaqi: Build HTML",
-        "command": "menu_exec", 
-            "args": {
-                "cmd": ".\\build.bat"
-            },
-        "selector": "source.html",
-    },
+    // { 
+    //     "caption": "Saaqi: Build HTML",
+    //     "command": "menu_exec", 
+    //         "args": {
+    //             "cmd": ".\\build.bat"
+    //         },
+    //     "selector": "source.html",
+    // },
 ]
