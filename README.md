@@ -7,7 +7,6 @@ A Sublime Text plugin that combines multiple useful features for web developers.
 * Minify CSS and JavaScript files automatically on save. You can disable the autosave feature on save.
 * Open terminal from Sublime Text by pressing CTRL+SHIFT+C. You can choose to open the terminal from the current subfolders or always from the parent or the project.
 * Launch Browser-Sync from your current project folder. You can also launch multiple instances of Browser-Sync if you are working on multiple * projects simultaneously.
-* AutoPrefix your CSS file.
 * Provides many small and useful HTML, CSS, JavaScript, and jQuery snippets.
 
 
