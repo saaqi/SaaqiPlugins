@@ -21,7 +21,6 @@ A Sublime Text plugin that combines multiple useful features for web developers.
 <pre><code>npm install clean-css-cli -g</code></pre>
 <pre><code>npm install terser -g</code></pre>
 <pre><code>npm install browser-sync -g</code></pre>
-<pre><code>npm install autoprefixer-cli -g</code></pre>
 
 
 ## Installation
